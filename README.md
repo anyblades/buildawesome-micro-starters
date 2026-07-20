@@ -14,6 +14,7 @@
 | [5] [Web Awesome](//wa.11ty.blades.ninja/)                                                         | ![](https://img.shields.io/netlify/40dc0253-7a90-4970-ba8d-80a1ec52093c?logo=webawesome&label=&labelColor=gray)                   |
 | [6] [Liquid Templates](//liquid.11ty.blades.ninja/)                                                | ![](https://img.shields.io/netlify/01d6a69a-2c7e-4620-8496-83087add8f8e?logo=&label=💧)                                           |
 | [7] [Tailwind CSS](//tw.11ty.blades.ninja/) <br><sup>with Typography plugin via Tailwind CLI</sup> | ![](https://img.shields.io/netlify/a980220a-630d-4022-9496-fb83b5db7c6b?logo=tailwindcss&label=&labelColor=gray)                  |
+| [8] [Shotpipe OG images](//shotpipe.io/) <br><sup>dynamic og:image, zero build-time cost</sup>     | ![](https://img.shields.io/badge/og%3Aimage-5ca9ff?label=🖼️)                                                                     |
 
 ## Killer features
 

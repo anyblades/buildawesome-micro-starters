@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "ogimage",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "do"
+  ],
+  "scripts": {
+    "do": "clear; ELTY_OPTIONS=--config=./node_modules/@anyblades/eleventy-blades-base/eleventy.config.js npm -w do run",
+    "start": "npm run do -- start",
+    "stage": "npm run do -- stage",
+    "build": "npm run do -- build"
+  },
+  "dependencies": {
+    "@anyblades/eleventy-blades-base": "^1.3.0",
+    "@awesome.me/buildawesome": "^4.0.0-0",
+    "eleventy-plugin-shotpipe": "^0.2.0"
+  },
+  "=== SITE GLOBALS": "===",
+  "site": {
+    "base": "https://og.11ty.blades.ninja",
+    "styles": [
+      "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css",
+      "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-okaidia.min.css",
+      "https://cdn.jsdelivr.net/npm/@anyblades/pico@2/css/pico.min.css",
+      "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.standalone.min.css"
+    ],
+    "scripts": [
+      "https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js",
+      "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js"
+    ],
+    "footer": "Powered by &nbsp;<a href='https://github.com/anyblades'><img src='https://img.shields.io/github/stars/anyblades?logo=_&label=🥷%20Blades'></a>"
+  },
+  "=== DEV ONLY": "===",
+  "devDependencies": {
+    "prettier-plugin-jinja-template": "^2.1.0",
+    "serve": "^14.2.5"
+  },
+  "===": "==="
+}
