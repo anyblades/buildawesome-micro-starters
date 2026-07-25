@@ -1,4 +1,4 @@
-import eleventyBladesPlugin from "@anyblades/eleventy-blades";
+import eleventyBladesPlugin from "@anyblades/buildawesome-kit-plugin";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyBladesPlugin);
