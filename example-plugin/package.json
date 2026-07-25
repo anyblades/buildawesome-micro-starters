@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "plugin-usage",
+  "name": "example-plugin",
   "type": "module",
   "scripts": {
     "start": "clear; eleventy --serve"
