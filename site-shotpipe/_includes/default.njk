@@ -1,0 +1,18 @@
+{% extends 'base/default.njk' %}
+{% set content_for_header %}
+  <meta
+    property="og:image"
+    content="{%
+      ogImageUrl {
+        title: 'Build Awesome + Shotpipe',
+        author: 'Build Awesome',
+        tag: '11ty starter',
+        template: 'terminal',
+        accent: '#5ca9ff'
+      }
+    %}"
+  />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+{% endset %}
