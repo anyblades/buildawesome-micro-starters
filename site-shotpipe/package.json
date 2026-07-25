@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "ogimage",
+  "name": "shot",
   "license": "MIT",
   "type": "module",
   "workspaces": [
@@ -19,7 +19,9 @@
   },
   "=== SITE GLOBALS": "===",
   "site": {
-    "base": "https://og.11ty.blades.ninja",
+    "base": "https://shot.build.blades.ninja",
+    "title": "Build Awesome + Shotpipe",
+    "author": "Shotpipe",
     "styles": [
       "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css",
       "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-okaidia.min.css",

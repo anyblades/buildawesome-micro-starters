@@ -1,5 +1,6 @@
 ---
 permalink: /
+tags: [11ty, starter]
 ---
 
 # 🥷 *B*uild Awesome <span class="faded">+</span> Shotpipe
