@@ -1,3 +1,7 @@
+---
+permalink: /
+---
+
 # 🥷 *B*uild Awesome <span class="faded">+</span> Shotpipe
 
 <big>Dynamic **Open Graph images** for your Eleventy starter, via [Shotpipe](https://shotpipe.io) — the `og:image` most 11ty starters skip.</big>
