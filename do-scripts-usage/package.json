@@ -3,16 +3,16 @@
   "name": "do-scripts-usage",
   "type": "module",
   "workspaces": [
-    "do"
+    "scripts"
   ],
   "scripts": {
-    "do": "clear; npm -w do run",
-    "start": "npm run do -- start",
-    "stage": "npm run do -- stage",
-    "build": "npm run do -- build"
+    "scripts": "clear; npm -w scripts run",
+    "start": "npm run scripts -- start",
+    "stage": "npm run scripts -- stage",
+    "build": "npm run scripts -- build"
   },
   "dependencies": {
     "@11ty/eleventy": "^4.0.0-alpha.8",
-    "@anyblades/eleventy-blades": "^1.3.0"
+    "@anyblades/buildawesome-kit-plugin": "^1.3.0"
   }
 }
