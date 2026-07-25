@@ -1,0 +1,3 @@
+[submodule "starter-content-first"]
+	path = starter-content-first
+	url = https://github.com/anyblades/buildawesome-content-first.git
