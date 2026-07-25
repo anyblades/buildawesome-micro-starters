@@ -31,11 +31,11 @@ With no key set, the site still builds — the card is simply omitted until you 
 - **in your `<head>`** — the URL waits in `<meta property="og:image">`, doing nothing.
 - **on first share** — when a crawler fetches it, Shotpipe renders the template and caches the PNG forever.
 
-<!--{.columns}-->
+<!--{.unlist .grid}-->
 
 ---
 
-- Part of the [*B*uild Awesome Starter[s]](https://github.com/anyblades/buildawesome-starters) multi-site kit.
-- OG image plugin: [eleventy-plugin-shotpipe](https://www.npmjs.com/package/eleventy-plugin-shotpipe) · [shotpipe.io](https://shotpipe.io)
+Links:
 
-<!--{.unlist .columns}-->
+- https://github.com/podop29/eleventy-plugin-shotpipe
+- https://shotpipe.io
