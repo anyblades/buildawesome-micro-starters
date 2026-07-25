@@ -12,14 +12,15 @@ Share any page of this site on X, Slack, or Discord and it renders a real social
 ## Enable it
 
 ```sh {data-caption="Two lines:"}
-npm i eleventy-plugin-shotpipe
+cd site-shotpipe/
+npm i
 npx shotpipe-init      # free key, no signup — writes it to .env
 ```
 
 Then build this site:
 
 ```sh
-IN=site-shotpipe npm start
+npm start
 ```
 
 With no key set, the site still builds — the card is simply omitted until you run `npx shotpipe-init`. Nothing breaks, which is what makes it safe to ship in a starter.
