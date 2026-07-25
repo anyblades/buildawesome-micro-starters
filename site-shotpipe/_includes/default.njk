@@ -1,0 +1,15 @@
+{% extends 'base/default.njk' %}
+
+{% if not title %}{% set title = site.title %}{% endif %}
+{% set content_for_header %}
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:image" content="{% ogImageUrl title, site.author, tags | join(', ') %}" />
+  <meta name="twitter:card" content="summary_large_image" />
+{% endset %}
+
+
+{% set content %}
+  {{ content | safe }}
+  <hr />
+  Part of: {% renderFile "../README.md" %}
+{% endset %}
