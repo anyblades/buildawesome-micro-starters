@@ -2,11 +2,11 @@
 {% set content_for_header %}
   <meta name="generator" content="{{ site.generator }}" />
   {% if og %}
-    <meta property="og:image" content="{{ og }}" />
+    <meta property="og:image" content="{{ og | safe }}" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="{{ og }}" />
+    <meta name="twitter:image" content="{{ og | safe }}" />
   {% endif %}
   <style>
     body {
