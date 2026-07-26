@@ -2,4 +2,4 @@
 permalink: /
 ---
 
-# `starter-tailwind`
+# Starter: `tailwind`

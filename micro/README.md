@@ -2,4 +2,4 @@
 permalink: /
 ---
 
-# `starter-micro`
+# Starter: `micro`
