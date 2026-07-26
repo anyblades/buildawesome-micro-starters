@@ -1,5 +1,1 @@
----
-permalink: /
----
-
-# Starter: `micro`
+../README.md
