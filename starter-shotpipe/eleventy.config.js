@@ -1,10 +1,10 @@
-import baseConfig from "@anyblades/eleventy-blades-base";
+import kitConfig from "@anyblades/buildawesome-kit";
 import shotpipePlugin from "eleventy-plugin-shotpipe";
 
 process.loadEnvFile();
 
 export default async function (eleventyConfig) {
-  await baseConfig(eleventyConfig);
+  await kitConfig(eleventyConfig);
 
   eleventyConfig.addPlugin(shotpipePlugin, {
     key: process.env.SHOTPIPE_KEY,

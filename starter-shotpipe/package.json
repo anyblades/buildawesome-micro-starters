@@ -16,6 +16,9 @@
     "@awesome.me/buildawesome": "^4.0.0-0",
     "eleventy-plugin-shotpipe": "^0.2.0"
   },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  },
   "=== SITE GLOBALS": "===",
   "site": {
     "author": "Shotpipe",
@@ -24,11 +27,6 @@
       "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
     ],
     "title": "Build Awesome + Shotpipe"
-  },
-  "=== DEV ONLY": "===",
-  "devDependencies": {
-    "prettier-plugin-jinja-template": "^2.1.0",
-    "serve": "^14.2.5"
   },
   "===": "==="
 }
