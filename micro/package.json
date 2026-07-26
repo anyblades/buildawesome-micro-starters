@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "starter-micro",
+  "name": "micro",
   "type": "module",
   "workspaces": [
     "scripts"

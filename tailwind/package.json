@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "starter-tailwind",
+  "name": "tailwind",
   "type": "module",
   "workspaces": [
     "scripts"
