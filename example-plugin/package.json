@@ -3,7 +3,7 @@
   "name": "example-plugin",
   "type": "module",
   "scripts": {
-    "start": "clear; eleventy --serve"
+    "start": "clear; buildawesome --serve"
   },
   "dependencies": {
     "@anyblades/buildawesome-kit-plugin": "^1.3.0-0",
