@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@anyblades/buildawesome-micro-starters",
+  "version": "1.3.0",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@awesome.me/buildawesome": "^4.0.0-0"
+  },
+  "===": "==="
+}
