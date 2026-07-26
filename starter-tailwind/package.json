@@ -6,7 +6,7 @@
     "scripts"
   ],
   "scripts": {
-    "scripts": "clear; BA_OPTIONS=--config=node_modules/@anyblades/buildawesome-kit/eleventy.config.js TW_OPTIONS='--input=styles.css --output=_public/styles.css' npm -w scripts run",
+    "scripts": "clear; BA_OPTIONS=--config=node_modules/@anyblades/buildawesome-kit/buildawesome.config.js TW_OPTIONS='--input=styles.css --output=_public/styles.css' npm -w scripts run",
     "start": "npm run scripts -- start:with-tw",
     "stage": "npm run scripts -- stage",
     "build": "npm run scripts -- build"

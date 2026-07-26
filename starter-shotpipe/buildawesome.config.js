@@ -3,10 +3,10 @@ import shotpipePlugin from "eleventy-plugin-shotpipe";
 
 process.loadEnvFile();
 
-export default async function (eleventyConfig) {
-  await kitConfig(eleventyConfig);
+export default async function ($config) {
+  await kitConfig($config);
 
-  eleventyConfig.addPlugin(shotpipePlugin, {
+  $config.addPlugin(shotpipePlugin, {
     key: process.env.SHOTPIPE_KEY,
     secret: process.env.SHOTPIPE_SECRET,
     template: "terminal",

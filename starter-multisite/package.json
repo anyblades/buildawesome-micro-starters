@@ -6,7 +6,7 @@
     "scripts"
   ],
   "scripts": {
-    "scripts": "clear; BA_OPTIONS=\"--input=${IN:-site-blades/} --config=node_modules/@anyblades/buildawesome-kit/eleventy.config.js\" npm -w scripts run",
+    "scripts": "clear; BA_OPTIONS=\"--input=${IN:-site-blades/} --config=node_modules/@anyblades/buildawesome-kit/buildawesome.config.js\" npm -w scripts run",
     "start": "npm run scripts -- start",
     "stage": "npm run scripts -- stage",
     "build": "npm run scripts -- build"
