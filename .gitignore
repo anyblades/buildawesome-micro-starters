@@ -1,6 +1,8 @@
 _site/
 .DS_Store
 .env
-/package-lock.json
 node_modules/
-starter-tailwind/_public/styles.css
+tailwind/_public/styles.css
+
+# Ignore in root (metadata-only)
+/package-lock.json
