@@ -4,13 +4,10 @@
 
 /* Custom styles go below */
 body {
-  @apply dark:bg-gray-900;
-}
-.container {
-  @apply mx-auto;
+  @apply dark:prose-invert dark:bg-gray-900;
 }
 .prose {
-  @apply dark:prose-invert;
+  @apply mx-auto;
   img {
     @apply inline-block m-0;
   }
