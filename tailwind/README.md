@@ -1,5 +1,1 @@
----
-permalink: /
----
-
-# Starter: `tailwind`
+../README.md
