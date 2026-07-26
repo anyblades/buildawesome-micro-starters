@@ -6,7 +6,7 @@
     "scripts"
   ],
   "scripts": {
-    "scripts": "clear; BA_OPTIONS=--config=node_modules/@anyblades/buildawesome-kit/buildawesome.config.js npm -w scripts run",
+    "scripts": "clear; BA_OPTIONS=\"--input=${IN} --config=node_modules/@anyblades/buildawesome-kit/buildawesome.config.js\" npm -w scripts run",
     "start": "npm run scripts -- start",
     "stage": "npm run scripts -- stage",
     "build": "npm run scripts -- build"
@@ -21,9 +21,6 @@
   "=== SITE GLOBALS": "===",
   "site": {
     "base": "https://micro.build.blades.ninja",
-    "styles": [
-      "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
-    ],
     "title": "Build Awesome Micro-Starter[s]"
   },
   "===": "==="
