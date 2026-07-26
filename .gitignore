@@ -3,4 +3,4 @@ _site/
 .env
 /package-lock.json
 node_modules/
-site-tailwind/_public/styles.css
+starter-tailwind/_public/styles.css
