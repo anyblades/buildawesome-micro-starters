@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "example-kit",
+  "name": "starter-micro",
   "type": "module",
   "workspaces": [
     "scripts"
@@ -18,9 +18,12 @@
   "devDependencies": {
     "serve": "^14.2.5"
   },
+  "=== SITE GLOBALS": "===",
   "site": {
+    "base": "https://micro.build.blades.ninja",
     "styles": [
       "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
     ]
-  }
+  },
+  "===": "==="
 }

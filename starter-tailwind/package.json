@@ -1,42 +1,32 @@
 {
   "private": true,
-  "name": "tw",
-  "license": "MIT",
+  "name": "starter-tailwind",
   "type": "module",
   "workspaces": [
-    "do"
+    "scripts"
   ],
   "scripts": {
-    "do": "clear; ELTY_OPTIONS=--config=./node_modules/@anyblades/eleventy-blades-base/eleventy.config.js TW_OPTIONS='--input=./styles.css --output=./_public/styles.css' npm -w do run",
-    "start": "npm run do -- start:with-tw",
-    "stage": "npm run do -- stage",
-    "build": "npm run do -- build"
+    "scripts": "clear; BA_OPTIONS=--config=node_modules/@anyblades/buildawesome-kit/eleventy.config.js TW_OPTIONS='--input=styles.css --output=_public/styles.css' npm -w scripts run",
+    "start": "npm run scripts -- start:with-tw",
+    "stage": "npm run scripts -- stage",
+    "build": "npm run scripts -- build"
   },
   "dependencies": {
-    "@anyblades/eleventy-blades-base": "^1.3.0",
+    "@anyblades/buildawesome-kit": "^1.3.0-0",
     "@awesome.me/buildawesome": "^4.0.0-0",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "tailwindcss": "^4.1.18"
   },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  },
   "=== SITE GLOBALS": "===",
   "site": {
-    "base": "https://tw.11ty.blades.ninja",
+    "base": "https://tw.build.blades.ninja",
     "styles": [
-      "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css",
-      "https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-okaidia.min.css",
       "/styles.css"
-    ],
-    "scripts": [
-      "https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js",
-      "https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js"
-    ],
-    "footer": "Powered by &nbsp;<a href='https://github.com/anyblades'><img src='https://img.shields.io/github/stars/anyblades?logo=_&label=🥷%20Blades'></a>"
-  },
-  "=== DEV ONLY": "===",
-  "devDependencies": {
-    "prettier-plugin-jinja-template": "^2.1.0",
-    "serve": "^14.2.5"
+    ]
   },
   "===": "==="
 }
