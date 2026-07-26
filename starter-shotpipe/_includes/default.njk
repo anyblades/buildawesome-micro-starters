@@ -6,10 +6,3 @@
   <meta property="og:image" content="{% ogImageUrl title, site.author.name, tags | join(', ') %}" />
   <meta name="twitter:card" content="summary_large_image" />
 {% endset %}
-
-
-{% set content %}
-  {{ content | safe }}
-  <hr />
-  Part of: {% renderFile "../README.md" %}
-{% endset %}

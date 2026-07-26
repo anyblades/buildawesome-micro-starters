@@ -19,7 +19,11 @@ site:
 {% endset %}
 
 {% block body %}
-  <main class="container breakout-all prose lg:prose-xl xl:prose-2xl">{{ content | safe }}</main>
+  <main class="container breakout-all prose lg:prose-xl xl:prose-2xl">
+    {{ content | safe }}
+    <hr />
+    Part of: {% renderFile "../README.md" %}
+  </main>
   <footer class="container prose">
     <hr />
     Powered by &nbsp;<a href="https://github.com/anyblades">

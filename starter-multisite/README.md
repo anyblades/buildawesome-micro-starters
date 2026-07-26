@@ -1,0 +1,5 @@
+---
+permalink: /
+---
+
+# `starter-multisite`

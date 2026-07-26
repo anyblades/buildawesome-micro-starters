@@ -1,10 +1,10 @@
 {% capture content_for_header %}
-  <meta name="generator" content="{{ site.generator }}" />
+  <meta name="generator" content="{{ site.title }}" />
 {% endcapture %}
 
 {% capture body %}
   <main class="container breakout-all">{{ content }}</main>
-  <footer><hr>{{ site.footer }} © {{ site.year }}</footer>
+  <footer><hr>{{ site.title }} © {{ site.year }}</footer>
 {% endcapture %}
 
 {% include blades/html.liquid %}
