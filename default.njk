@@ -2,6 +2,7 @@
 site:
   body_attrs: class="container"
 ---
+
 {% extends 'blades/html.njk' %}
 {% set content_for_header %}
   <meta name="generator" content="{{ site.generator }}" />
@@ -21,7 +22,9 @@ site:
   <main class="container breakout-all prose lg:prose-xl xl:prose-2xl">{{ content | safe }}</main>
   <footer class="container prose">
     <hr />
-    Powered by &nbsp;<a href='https://github.com/anyblades'><img src='https://img.shields.io/github/stars/anyblades?logo=_&label=🥷%20Blades'></a>
+    Powered by &nbsp;<a href="https://github.com/anyblades">
+      <img src="https://img.shields.io/github/stars/anyblades?logo=_&label=🥷%20Blades" />
+    </a>
     © {{ site.year }}
   </footer>
 {% endblock %}

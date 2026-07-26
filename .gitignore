@@ -1,5 +1,6 @@
 _site/
 .DS_Store
 .env
+/package-lock.json
 node_modules/
 site-tailwind/_public/styles.css
