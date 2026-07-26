@@ -3,7 +3,7 @@
 {% if not title %}{% set title = site.title %}{% endif %}
 {% set content_for_header %}
   <meta property="og:title" content="{{ title }}" />
-  <meta property="og:image" content="{% ogImageUrl title, site.author, tags | join(', ') %}" />
+  <meta property="og:image" content="{% ogImageUrl title, site.author.name, tags | join(', ') %}" />
   <meta name="twitter:card" content="summary_large_image" />
 {% endset %}
 

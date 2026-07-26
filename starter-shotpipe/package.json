@@ -21,12 +21,14 @@
   },
   "=== SITE GLOBALS": "===",
   "site": {
-    "author": "Shotpipe",
+    "author": {
+      "name": "Shotpipe"
+    },
     "base": "https://shot.build.blades.ninja",
     "styles": [
       "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
     ],
-    "title": "Build Awesome + Shotpipe"
+    "title": "Build Awesome Shotpipe Micro-Starter"
   },
   "===": "==="
 }

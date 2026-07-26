@@ -26,7 +26,8 @@
     "base": "https://tw.build.blades.ninja",
     "styles": [
       "/styles.css"
-    ]
+    ],
+    "title": "Build Awesome Tailwind Micro-Starter"
   },
   "===": "==="
 }
