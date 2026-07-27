@@ -1,8 +1,17 @@
 {% extends 'base.njk' %}
 
 {% if not title %}{% set title = site.title %}{% endif %}
+{% set _og_image %}{% ogImageUrl title, site.author.name, tags | join(', ') %}{% endset %}
+
 {% set content_for_header %}
   <meta property="og:title" content="{{ title }}" />
-  <meta property="og:image" content="{% ogImageUrl title, site.author.name, tags | join(', ') %}" />
+  <meta property="og:image" content="{{ _og_image | safe }}" />
   <meta name="twitter:card" content="summary_large_image" />
+{% endset %}
+
+{% set content %}
+  <p>OG image for this page:</p>
+  <img src="{{ _og_image | safe }}">
+  <hr>
+  {{ content | safe }}
 {% endset %}
