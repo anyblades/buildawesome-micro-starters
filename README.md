@@ -44,51 +44,34 @@ content_for_header: <meta property="og:image" content="https://build.blades.ninj
 
 ---
 
-## Killer features
-
-- **Eleventy v4 by default**  
-  <sup>both v4 (Build Awesome) & v3 supported</sup>
-- **"Thin client" architecture**  
-  <sup>thanks [Eleventy *Bl*ades](//build.blades.ninja/) for heavy lifting</sup>
-- **Tailwind v4 CLI**  
-  <sup>either Tailwind CSS <b class="faded">–OR–</b> your own CSS</sup>
-- **[*Bl*ades CSS](//blades.ninja/css/standalone/) included**  
-  <sup>standalone framework-agnostic helpers</sup>
-- **Sveltia CMS included**  
-  <sup>modern Decap/Netlify CMS successor</sup>
-- **Multi-site support**  
-  <sup>thanks to symlink-based setup</sup>
-- **One-click start**  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anyblades/buildawesome-starters)
-
-<!--{.columns}-->
-
----
-
 ## Local development
 
-```sh {data-caption="As simple as:"}
+As simple as:
+
+```sh
+cd micro/
 npm install    # dependencies
 npm start      # development
 npm run stage  # serve production version locally
                # ready to deploy! 🚀
 ```
 
-Add `IN=...` to build the specific site:
+### Multi-siting
+
+`micro/` starter is multi-site — meaning you can configure its input folder via `IN=` environment variable like this:
 
 ```sh
-IN=site-webawesome npm start
-IN=site-webawesome npm run stage
+IN=../micro-bootstrap/ npm start
 ```
 
 ---
 
-- Featured by:
-  - https://11tybundle.dev/starters/
-  - https://sveltiacms.app/en/docs/frameworks/eleventy
-  - https://www.11ty.dev/docs/starter/
-- See also:
-  - https://build.blades.ninja/starters/
-  - https://build.blades.ninja/awesome/
+## <sup style>Featured by</sup>
 
-<!--{.unlist .columns}-->
+- https://www.11ty.dev/docs/starter/
+- https://sveltiacms.app/en/docs/frameworks/eleventy
+- https://build.blades.ninja/starters/
+- https://11tybundle.dev/starters/
+- [awesome-buildawesome](https://github.com/anyblades/awesome-buildawesome)
+
+<!--{.columns}-->
