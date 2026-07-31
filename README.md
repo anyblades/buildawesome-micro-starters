@@ -14,17 +14,32 @@ content_for_header: <meta property="og:image" content="https://build.blades.ninj
   <object data="https://img.shields.io/github/stars/anyblades/buildawesome-micro-starters?label=GitHub&labelColor=silver&color=gainsboro&style=for-the-badge"></object><!-- won't render on GitHub -->
 </p>
 
-<big>7-in-1 modern, lightweight Build Awesome starter showcasing [Eleventy&nbsp;*Bl*ades&nbsp;Kit](//build.blades.ninja/) for:</big>
+<big>Modern <mark>11-in-1</mark> micro-starter showcasing [Build&nbsp;Awesome&nbsp;Kit](//build.blades.ninja/) for:</big>
 
-| [1] [*Bl*ades CSS](//start.build.blades.ninja/)                                                     | ![](https://img.shields.io/netlify/41df6bc0-3b91-48f7-903a-3511ca3652a8?logo=&label=🥷)                                           |
-| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [2] [Pico CSS](//pico.build.blades.ninja/)                                                          | ![](https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c?logo=&label=✨)                                           |
-| [3] [Simple CSS](//simple.build.blades.ninja/)                                                      | ![](https://img.shields.io/netlify/6bbb26f6-0115-4325-8cd3-b59e22f18265?logo=&label={})                                           |
-| [4] [Bootstrap CSS](//bs.build.blades.ninja/)                                                       | ![](https://img.shields.io/netlify/e58db8aa-94b7-4637-80cc-50e03cff45b0?logo=bootstrap&logoColor=lavender&label=&labelColor=gray) |
-| [5] [Web Awesome](//wa.build.blades.ninja/)                                                         | ![](https://img.shields.io/netlify/40dc0253-7a90-4970-ba8d-80a1ec52093c?logo=webawesome&label=&labelColor=gray)                   |
-| [6] [Liquid Templates](//liquid.build.blades.ninja/)                                                | ![](https://img.shields.io/netlify/01d6a69a-2c7e-4620-8496-83087add8f8e?logo=&label=💧)                                           |
-| [7] [Tailwind CSS](//tw.build.blades.ninja/) <br><sup>with Typography plugin via Tailwind CLI</sup> | ![](https://img.shields.io/netlify/a980220a-630d-4022-9496-fb83b5db7c6b?logo=tailwindcss&label=&labelColor=gray)                  |
-| [8] [Shotpipe OG images](//shotpipe.io/) <br><sup>dynamic og:image, zero build-time cost</sup>      | ![](https://img.shields.io/badge/og%3Aimage-5ca9ff?label=🖼️)                                                                      |
+<figure>
+
+| [1] [*Bl*ades CSS](//micro.build.blades.ninja/) <i data-v="./micro/ (default, multi-site)"></i>         | <img src="https://img.shields.io/netlify/41df6bc0-3b91-48f7-903a-3511ca3652a8?logo=&label=🥷">                                           |
+| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| <i data-v="├──"></i> [2] [Pico CSS](//pico.build.blades.ninja/) <i data-v="./micro-pico/"></i>          | <img src="https://img.shields.io/netlify/93494d69-cb21-4ad0-855f-3748d3741e5c?logo=&label=✨">                                           |
+| <i data-v="├──"></i> [3] [Bootstrap CSS](//bs.build.blades.ninja/) <i data-v="./micro-bootstrap/"></i>  | <img src="https://img.shields.io/netlify/e58db8aa-94b7-4637-80cc-50e03cff45b0?logo=bootstrap&logoColor=lavender&label=&labelColor=gray"> |
+| <i data-v="├──"></i> [4] [Web Awesome](//wa.build.blades.ninja/) <i data-v="./micro-webawesome/"></i>   | <img src="https://img.shields.io/netlify/40dc0253-7a90-4970-ba8d-80a1ec52093c?logo=webawesome&label=&labelColor=gray">                   |
+| <i data-v="├──"></i> [5] Sveltia CMS <i data-v="./micro-sveltia-cms/"></i>                              |                                                                                                                                          |
+| <i data-v="└──"></i> [6] Liquid (templates) <i data-v="./micro-liquid/"></i>                            |
+| [7] [Content-First](//content.build.blades.ninja/) <i data-v="(sub-starter)"></i>                       | <img src="https://img.shields.io/netlify/346efcff-c92c-4f1c-bf3c-047049fc6a8c?label=📝">                                                 |
+| [8] [Tailwind CSS](//tw.build.blades.ninja/) <i data-v="./tailwind/"></i>                               | <img src="https://img.shields.io/netlify/a980220a-630d-4022-9496-fb83b5db7c6b?logo=tailwindcss&label=&labelColor=gray">                  |
+| [9] [Shotpipe (OG images)](//shot.build.blades.ninja/) <i data-v="./shotpipe-og-images/"></i>           | <img src="https://img.shields.io/netlify/c4a8f0e9-2d85-4bd4-9607-a9043ab8a0a4?label=🖼️">                                                 |
+| [10] Bare [Build Awesome Kit (plugin)](//build.blades.ninja/plugin/) <i data-v="./bare-plugin/"></i>    |
+| [11] Bare [Build Awesome Kit (scripts)](//build.blades.ninja/scripts/) <i data-v="./bare-scripts/"></i> |
+
+{.striped .borderless}
+
+</figure>
+<style>
+  /* Render text as unselectable icon */
+  [data-v]::before { content: attr(data-v); font-family: monospace; opacity: 37.5% }
+</style>
+
+---
 
 ## Killer features
 
