@@ -31,13 +31,13 @@ content_for_header: <meta property="og:image" content="https://build.blades.ninj
 | [10] Bare [Build Awesome Kit (plugin)](//build.blades.ninja/plugin/) <!--{data-a=./bare-plugin/ .faded}-->    |
 | [11] Bare [Build Awesome Kit (scripts)](//build.blades.ninja/scripts/) <!--{data-a=./bare-scripts/ .faded}--> |
 
-{.striped .borderless}
+<!--{.striped .borderless}-->
 
 </figure>
 <style>
   table td { vertical-align: middle }
   /* Render text as unselectable icon */
-  [data-b]::before, [data-a]::after { font-family: monospace; opacity: 37.5% }
+  [data-b]::before, [data-a]::after { font-family: monospace; opacity: 50% }
   [data-b]::before { content: attr(data-b) " " }
   [data-a]::after { content: " " attr(data-a) }
 </style>
