@@ -1,15 +1,16 @@
 {% extends 'blades/html.njk' %}
+
+{% if not site.prod %}
+  {% set site = site | attr_set('styles', site.styles | join('|') | replace('https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css', '') | split('|')) %}
+{% endif %}
+
 {% set content_for_header %}
-  <meta name="generator" content="{{ site.title }}" />
+  <meta name="generator" content="{{ site.generator }}">
+  <meta property="og:title" content="{{ title | d(site.title) | striptags }}">
+  <meta name="twitter:card" content="summary_large_image">
   <style>
     object { vertical-align: middle } /*TODO: move to blades.css */
-    body {
-      padding-block: 3em;
-      > footer {
-        text-align: center;
-        border: none;
-      }
-    }
+    body > footer { text-align: center; padding-bottom: 3rem; font-size: medium }
   </style>
   {{ content_for_header | safe }}
 {% endset %}
@@ -21,10 +22,5 @@
     {{ content | safe }}
   </main>
   <hr />
-  <footer class="container">
-    Powered by &nbsp;<a href="https://github.com/anyblades">
-      <i><img src="https://img.shields.io/github/stars/anyblades?logo=_&label=🥷%20Blades" /></i>
-    </a>
-    © {{ site.year }}
-  </footer>
+  <footer>{{ site.footer | safe }} © {{ site.year }}</footer>
 {% endblock %}
