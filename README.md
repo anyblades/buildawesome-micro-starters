@@ -59,7 +59,7 @@ npm run stage  # serve production version locally
 
 ---
 
-## Micro multi-siting
+## Micro multi-site starter
 
 `micro/` starter is multi-site — meaning you can switch its input folder via `IN=` environment variable like this:
 
@@ -69,7 +69,19 @@ IN=../micro-bootstrap/ npm start
 
 ---
 
-## Shotpipe (OG images)
+- ## Sveltia CMS starter <sub style>`micro-sveltia-cms/`</sub>
+
+  <a href="/admin/" role="button">Go to Sveltia CMS Admin</a>
+
+- ## Web Awesome starter <sub style>`micro-webawesome/`</sub>
+
+  <wa-button variant="brand">Click Web Awesome Button!</wa-button>
+
+<!--{.unlist .grid}-->
+
+---
+
+## Shotpipe (OG images) starter
 
 <big>Dynamic **Open Graph images** for your Eleventy starter, via [Shotpipe](//shotpipe.io) — the `og:image` most 11ty starters skip.</big>
 
