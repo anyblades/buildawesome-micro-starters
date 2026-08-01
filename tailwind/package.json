@@ -25,6 +25,7 @@
   "site": {
     "base": "https://tw.build.blades.ninja",
     "body_attrs": "class='prose lg:prose-xl xl:prose-2xl'",
+    "footer": "Powered by <object data='https://build.blades.ninja/gh.svg' class='dark-auto'></object>",
     "styles": [
       "/styles.css"
     ],

@@ -21,7 +21,7 @@
   "=== SITE GLOBALS": "===",
   "site": {
     "base": "https://micro.build.blades.ninja",
-    "footer": "Powered by <b class='dark-auto'><object data='https://build.blades.ninja/gh.svg'></object> × <object data='https://blades.ninja/gh.svg'></object></b>",
+    "footer": "Powered by <object data='https://build.blades.ninja/gh.svg' class='dark-auto'></object>",
     "title": "Build Awesome Micro-Starter[s]"
   },
   "===": "==="

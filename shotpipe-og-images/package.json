@@ -25,6 +25,7 @@
       "name": "Shotpipe"
     },
     "base": "https://shot.build.blades.ninja",
+    "footer": "Powered by <object data='https://build.blades.ninja/gh.svg' class='dark-auto'></object>",
     "styles": [
       "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.css?min=0"
     ],
